@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=yyy
+comment1.params=
+comment1.target=yyy()
+comment2.params=
+comment2.target=void\ setUp()
+comment3.params=
+comment3.target=void\ tearDown()
+comment4.params=
+comment4.target=void\ test1()
+comment5.params=
+comment5.target=void\ test2()
+numComments=6
