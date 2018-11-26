@@ -2,10 +2,20 @@
 comment0.target=Encerrado
 comment1.params=
 comment1.target=Encerrado()
-comment2.params=jugador\ i\ j
-comment2.target=void\ mover(char,\ int,\ int)
+comment2.params=
+comment2.target=void\ llenarMatriz()
 comment3.params=
-comment3.target=void\ llenarMatriz()
-comment4.params=
-comment4.target=java.lang.String\ imprimirTablero()
-numComments=5
+comment3.target=java.lang.String\ imprimirTablero()
+comment3.text=public\ String\ imprimirTablero(){\n\ \ \ \ \ \ \ \ return\ "\u2666\u252C\u2663"\ +"\\n"+\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ "\u251CB\u263B"\ +"\\n"+\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ "\u2663\u2534\u2666"\ +"\\n";\n}
+comment4.params=conquistador\ conquistado
+comment4.target=void\ iniciarConquista(java.lang.String,\ java.lang.String)
+comment4.text=public\ void\ iniciarConquista(String\ conquistador,\ String\ conquistado){\n\ \ \ \ \ \ \ \ tablero[0]\ \=\ "G";\n\ \ \ \ \ \ \ \ tablero[4]\ \=\ "\u2666";\n}
+comment5.params=conquistador\ conquistado\ jugador
+comment5.target=java.lang.Boolean\ sePuedeConquistar(java.lang.String,\ java.lang.String,\ java.lang.String)
+comment5.text=public\ Boolean\ sePuedeConquistar(String\ conquistador,String\ conquistado,\ String\ jugador){\n\ \ \ \ \ \ \ \ return\ true;\n}
+comment6.params=conquistador\ conquistado
+comment6.target=void\ conquistar(java.lang.String,\ java.lang.String)
+comment6.text=public\ void\ conquistar(String\ conquistador,String\ conquistado){\n\ \ \ \ \ \ \ \ tablero[4]\ \=\ tablero[0];\n\ \ \ \ \ \ \ \ tablero[0]\ \=\ "G";\n}
+comment7.params=jugador
+comment7.target=java.lang.Boolean\ gano(java.lang.String)
+numComments=8
